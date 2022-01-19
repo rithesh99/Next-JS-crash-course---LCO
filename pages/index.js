@@ -12,7 +12,7 @@ const index = ({ heros }) => {
   return (
     <div className="container">
       <h1 className="diplay-2">Superhero Identity manager</h1>
-      <div>
+      <div className="row justify-content-between">
         {heros.map((hero, index) => {
           return (
             <MDBCard
